@@ -1,0 +1,216 @@
+<mxfile host="app.diagrams.net" modified="2026-02-06T00:00:00.000Z">
+  <diagram name="Séquence - Authentification" id="seq-auth">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="700">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- Titre -->
+        <mxCell id="title" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Diagramme de Séquence - Authentification Passager (US2)&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="600" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- Participants -->
+        <mxCell id="actor" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="actorLabel" value="Passager" style="text;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="55" y="145" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="actorLine" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="95" y="165" as="sourcePoint"/>
+            <mxPoint x="95" y="620" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="app" value="Application&lt;br&gt;Mobile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="appLine" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="165" as="sourcePoint"/>
+            <mxPoint x="340" y="620" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="api" value="API&lt;br&gt;FastAPI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="apiLine" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="165" as="sourcePoint"/>
+            <mxPoint x="580" y="620" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="db" value="Base de&lt;br&gt;Données" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="80" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="dbLine" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="165" as="sourcePoint"/>
+            <mxPoint x="820" y="620" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Messages -->
+        
+        <!-- 1. Saisir credentials -->
+        <mxCell id="msg1" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="200" as="sourcePoint"/>
+            <mxPoint x="95" y="220" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="170" y="200"/>
+              <mxPoint x="170" y="220"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg1Label" value="Saisir email et&lt;br&gt;mot de passe" style="text;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="105" y="195" width="120" height="30" as="geometry"/>
+        </mxCell>
+        
+        <!-- 2. Cliquer Connexion -->
+        <mxCell id="msg2" value="" style="endArrow=block;html=1;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="95" y="250" as="sourcePoint"/>
+            <mxPoint x="340" y="250" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg2Label" value="Cliquer &quot;Connexion&quot;" style="text;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="140" y="230" width="140" height="20" as="geometry"/>
+        </mxCell>
+        
+        <!-- 3. POST /login -->
+        <mxCell id="msg3" value="" style="endArrow=block;html=1;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="280" as="sourcePoint"/>
+            <mxPoint x="580" y="280" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg3Label" value="POST /login&lt;br&gt;{email, password}" style="text;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="380" y="260" width="160" height="30" as="geometry"/>
+        </mxCell>
+        
+        <!-- 4. SELECT passager -->
+        <mxCell id="msg4" value="" style="endArrow=block;html=1;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="320" as="sourcePoint"/>
+            <mxPoint x="820" y="320" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg4Label" value="SELECT * FROM passagers&lt;br&gt;WHERE email = ?" style="text;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="600" y="295" width="200" height="30" as="geometry"/>
+        </mxCell>
+        
+        <!-- 5. Retour passager -->
+        <mxCell id="msg5" value="" style="endArrow=block;html=1;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="350" as="sourcePoint"/>
+            <mxPoint x="580" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg5Label" value="{id, email, password_hash, ...}" style="text;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="610" y="330" width="200" height="20" as="geometry"/>
+        </mxCell>
+        
+        <!-- 6. Vérifier password -->
+        <mxCell id="msg6" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="380" as="sourcePoint"/>
+            <mxPoint x="580" y="410" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="660" y="380"/>
+              <mxPoint x="660" y="410"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg6Label" value="Vérifier hash&lt;br&gt;bcrypt.compare()" style="text;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="590" y="380" width="130" height="30" as="geometry"/>
+        </mxCell>
+        
+        <!-- Alt frame -->
+        <mxCell id="altFrame" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;width=50;height=30;" vertex="1" parent="1">
+          <mxGeometry x="540" y="420" width="340" height="150" as="geometry"/>
+        </mxCell>
+        
+        <!-- [Si valide] -->
+        <mxCell id="condValid" value="[Si mot de passe valide]" style="text;html=1;align=left;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="550" y="425" width="180" height="20" as="geometry"/>
+        </mxCell>
+        
+        <!-- 7. Générer JWT -->
+        <mxCell id="msg7" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="460" as="sourcePoint"/>
+            <mxPoint x="580" y="480" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="650" y="460"/>
+              <mxPoint x="650" y="480"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg7Label" value="Générer JWT" style="text;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="590" y="465" width="100" height="20" as="geometry"/>
+        </mxCell>
+        
+        <!-- Separateur alt -->
+        <mxCell id="altSep" value="" style="endArrow=none;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="500" as="sourcePoint"/>
+            <mxPoint x="880" y="500" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- [Sinon] -->
+        <mxCell id="condInvalid" value="[Sinon : mot de passe incorrect]" style="text;html=1;align=left;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="550" y="505" width="200" height="20" as="geometry"/>
+        </mxCell>
+        
+        <!-- 8. Retour erreur -->
+        <mxCell id="msg8" value="" style="endArrow=block;html=1;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="540" as="sourcePoint"/>
+            <mxPoint x="340" y="540" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg8Label" value="401 Unauthorized" style="text;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="410" y="520" width="120" height="20" as="geometry"/>
+        </mxCell>
+        
+        <!-- 9. Retour token (succès) -->
+        <mxCell id="msg9" value="" style="endArrow=block;html=1;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="490" as="sourcePoint"/>
+            <mxPoint x="340" y="490" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg9Label" value="{&quot;token&quot;: &quot;eyJ...&quot;, &quot;user&quot;: {...}}" style="text;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="370" y="470" width="190" height="20" as="geometry"/>
+        </mxCell>
+        
+        <!-- 10. Stocker token -->
+        <mxCell id="msg10" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="590" as="sourcePoint"/>
+            <mxPoint x="95" y="610" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="170" y="590"/>
+              <mxPoint x="170" y="610"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg10Label" value="Stocker token et&lt;br&gt;rediriger → Home" style="text;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="105" y="590" width="120" height="30" as="geometry"/>
+        </mxCell>
+        
+        <!-- Note -->
+        <mxCell id="note1" value="Note: Le token JWT est valable&lt;br&gt;24h et contient: user_id, email" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="950" y="300" width="200" height="60" as="geometry"/>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
