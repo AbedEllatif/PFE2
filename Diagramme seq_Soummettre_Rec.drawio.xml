@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.7">
+  <diagram name="Séquence - Soumettre Réclamation" id="PfniSAHQfprMaB_oSxID">
+    <mxGraphModel dx="1601" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="82Uk7pW00La8_VQuNRte-1" parent="1" style="text;html=1;align=center;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Diagramme de Séquence - Soumettre Réclamation (US5, US6, US7)&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="700" x="390" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="30" x="100" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-3" parent="1" style="text;html=1;align=center;" value="Passager" vertex="1">
+          <mxGeometry height="20" width="80" x="75" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-4" edge="1" parent="1" source="82Uk7pW00La8_VQuNRte-3" style="endArrow=none;dashed=1;html=1;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="115" y="308" as="sourcePoint" />
+            <mxPoint x="115" y="993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-6" edge="1" parent="1" source="82Uk7pW00La8_VQuNRte-66" style="endArrow=none;dashed=1;html=1;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="310" as="sourcePoint" />
+            <mxPoint x="320" y="995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-13" edge="1" parent="1" style="endArrow=block;html=1;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="115" y="240" as="sourcePoint" />
+            <mxPoint x="320" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-14" parent="1" style="text;html=1;align=center;" value="Cliquer &quot;Nouvelle réclamation&quot;" vertex="1">
+          <mxGeometry height="20" width="180" x="130" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-18" parent="1" style="text;html=1;align=left;" value="Saisir (Type transport&lt;br&gt;, Date/Heure ...)" vertex="1">
+          <mxGeometry height="80" width="150" x="130" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-19" edge="1" parent="1" style="endArrow=block;html=1;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="115" y="390" as="sourcePoint" />
+            <mxPoint x="320" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-20" parent="1" style="text;html=1;align=center;" value="Cliquer &quot;Ajouter photo&quot;" vertex="1">
+          <mxGeometry height="20" width="150" x="140" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-21" edge="1" parent="1" style="endArrow=block;html=1;endFill=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="420" as="sourcePoint" />
+            <mxPoint x="115" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-22" parent="1" style="text;html=1;align=center;" value="Ouvrir caméra/galerie" vertex="1">
+          <mxGeometry height="20" width="140" x="150" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-24" parent="1" style="text;html=1;align=left;" value="Envoyer une photo" vertex="1">
+          <mxGeometry height="30" width="140" x="150" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-29" edge="1" parent="1" style="endArrow=block;html=1;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="115" y="562" as="sourcePoint" />
+            <mxPoint x="320" y="562" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-30" parent="1" style="text;html=1;align=center;" value="Cliquer &quot;Soumettre&quot;" vertex="1">
+          <mxGeometry height="20" width="130" x="150" y="542" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-31" edge="1" parent="1" style="endArrow=block;html=1;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="321" y="613" as="sourcePoint" />
+            <mxPoint x="561" y="613" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-32" parent="1" style="text;html=1;align=center;" value="Envoyer_reclamation(Type transport,&amp;nbsp;&lt;div&gt;Date/Heure ...)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44" width="220" x="335" y="576" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-35" edge="1" parent="1" style="endArrow=block;html=1;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="561" y="644" as="sourcePoint" />
+            <mxPoint x="801" y="644" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-36" parent="1" style="text;html=1;align=center;" value="Save_Reclamation(Type transport ...)" vertex="1">
+          <mxGeometry height="20" width="200" x="580" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-37" edge="1" parent="1" style="endArrow=block;html=1;endFill=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="800" y="678.75" as="sourcePoint" />
+            <mxPoint x="560" y="678.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-38" parent="1" style="text;html=1;align=center;" value="reclamation_id&amp;nbsp;" vertex="1">
+          <mxGeometry height="20" width="140" x="612" y="656" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-49" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Note: La photo est compressée&lt;br&gt;côté mobile avant envoi pour&lt;br&gt;économiser la bande passante" vertex="1">
+          <mxGeometry height="70" width="220" x="1160" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-50" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Note: Le statut initial est&lt;br&gt;&quot;EN_ATTENTE&quot; car l&#39;IA de&lt;br&gt;classification sera dans Sprint 2" vertex="1">
+          <mxGeometry height="70" width="220" x="1160" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-51" edge="1" parent="1" style="endArrow=block;html=1;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="117.5" y="470" as="sourcePoint" />
+            <mxPoint x="322.5" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-54" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="700" width="15.04" x="314.96" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-55" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="82Uk7pW00La8_VQuNRte-54" value="&lt;span style=&quot;font-size: 12px; text-align: center;&quot;&gt;Afficher formulaire vide&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="349.96" y="290" />
+            </Array>
+            <mxPoint x="319.96" y="260" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-56" edge="1" parent="1" style="endArrow=block;html=1;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="112.5" y="330" as="sourcePoint" />
+            <mxPoint x="317.5" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-61" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="319.96" y="521" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-62" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="82Uk7pW00La8_VQuNRte-61" value="&lt;span style=&quot;font-size: 12px; text-align: center;&quot;&gt;Afficher prévisualisation&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="354.96" y="531" />
+            </Array>
+            <mxPoint x="324.96" y="501" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-65" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" value="" vertex="1">
+          <mxGeometry height="45" width="50" x="292" y="137" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-66" parent="1" style="text;html=1;align=center;" value="Réclamation" vertex="1">
+          <mxGeometry height="20" width="80" x="282.48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-67" edge="1" parent="1" source="82Uk7pW00La8_VQuNRte-70" style="endArrow=none;dashed=1;html=1;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="314" as="sourcePoint" />
+            <mxPoint x="560" y="999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-69" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" value="" vertex="1">
+          <mxGeometry height="50" width="40" x="540" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-70" parent="1" style="text;html=1;align=center;" value=":RéclamationConroller" vertex="1">
+          <mxGeometry height="20" width="80" x="520" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-71" edge="1" parent="1" source="82Uk7pW00La8_VQuNRte-74" style="endArrow=none;dashed=1;html=1;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="806" y="316" as="sourcePoint" />
+            <mxPoint x="806" y="1001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-73" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" value="" vertex="1">
+          <mxGeometry height="50" width="40" x="786" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-74" parent="1" style="text;html=1;align=center;" value=":Réclamations" vertex="1">
+          <mxGeometry height="20" width="80" x="762" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-75" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="frame" vertex="1">
+          <mxGeometry height="440" width="895" x="35" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-76" edge="1" parent="1" source="82Uk7pW00La8_VQuNRte-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.21;entryY=1.213;entryDx=0;entryDy=0;entryPerimeter=0;" target="82Uk7pW00La8_VQuNRte-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-78" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="319.96000000000004" y="723" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-79" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="82Uk7pW00La8_VQuNRte-78" value="Afficher (&quot;Reclamation +id+ enregistrer&lt;div&gt;avec succés&quot;)&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="354.96000000000004" y="733" />
+            </Array>
+            <mxPoint x="324.96000000000004" y="703" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-80" edge="1" parent="1" style="endArrow=block;html=1;endFill=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="559.96" y="692.75" as="sourcePoint" />
+            <mxPoint x="319.96" y="692.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-81" parent="1" style="text;html=1;align=center;" value="reclamation_id&amp;nbsp;" vertex="1">
+          <mxGeometry height="20" width="140" x="371.96" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-83" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="900" x="30" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-84" edge="1" parent="1" style="endArrow=block;html=1;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="116" y="835" as="sourcePoint" />
+            <mxPoint x="321" y="835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-85" parent="1" style="text;html=1;align=center;" value="Cliquer &quot;Annuler&quot;" vertex="1">
+          <mxGeometry height="20" width="130" x="151" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-86" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="319.96" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-87" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="82Uk7pW00La8_VQuNRte-86" value="Afficher(&quot;Réclamation Annuler&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="354.96" y="870" />
+            </Array>
+            <mxPoint x="324.96" y="840" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-88" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="20" width="10" x="327.48" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="82Uk7pW00La8_VQuNRte-89" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="82Uk7pW00La8_VQuNRte-88" value="Redirection vers formulaire&amp;nbsp;&lt;div&gt;des réclamations&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="362.48" y="910" />
+            </Array>
+            <mxPoint x="332.48" y="880" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
